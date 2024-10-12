@@ -1,4 +1,4 @@
-# AirflowOrchestration
+# Orchestrating ETL Processes with Airflow Using a Medallion Architecture of ADLS Gen2 Containers
 
 ## 1. Project Objective and Summary
 The main objective was to build a data pipeline for ingesting data from source and transform it over a medallion architecture. The data pipeline was orchestrated using Airflow. Stock data was ingested from Yahoo API and transformation was performed on the semi-structured data using python. A Medallion architecture was created using Azure Data Lake Storage (ADLS) Gen2 storage layers. The Airflow environment was setup on local machine (Windows) using Astro CLI.
