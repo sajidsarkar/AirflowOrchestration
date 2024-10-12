@@ -4,7 +4,8 @@
 The main objective was to build a data pipeline for ingesting data from source and transform it over a medallion architecture. The data pipeline was orchestrated using Airflow. Stock data was ingested from Yahoo API and transformation was performed on the semi-structured data using python. A Medallion architecture was created using Azure Data Lake Storage (ADLS) Gen2 storage layers. The Airflow environment was setup on local machine (Windows) using Astro CLI.
 
 ## 2. Overall Architecture
-Diagram showing the architecture.
+![image](https://github.com/user-attachments/assets/a0ad6002-e9f8-4e73-94a1-5217dd132a6e)
+
 
 ## 3. Environment Setup
 Before starting to develop the data pipeline, several environments had to be setup. Below are the setups that were performed prior to starting ETL development work:
